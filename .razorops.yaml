@@ -8,6 +8,7 @@ tasks:
     - run: pip3 install pytest
     - run: pip3 freeze --local > requirements.txt
     - run: pip3 install pytest-cov
+    - run: pytest --cov app/
     - run: pytest --cov app/ --cov-report=xml:test-coverage.xml
     - codecov/upload 
     - run: |
