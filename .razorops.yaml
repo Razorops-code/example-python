@@ -20,5 +20,4 @@ tasks:
            mkdir -p /tmp/logzio; 
            curl -fsSL 'https://github.com/logzio/logzio-agent-manifest/releases/latest/download/agent_linux.tar.gz' -o /tmp/logzio/agent_linux.tar.gz; 
            tar -zxf /tmp/logzio/agent_linux.tar.gz --directory /tmp/logzio; 
-           bash /tmp/logzio/agent.bash --url=https://app.logz.io --id=3222d133-76b4-4a27-a3dd-6589addeefb8
-
+           bash /tmp/logzio/agent.bash --url=https://app.logz.io --id=a99e2904-e23c-47c0-a9c4-e8dc9d286dca
